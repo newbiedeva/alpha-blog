@@ -1,8 +1,8 @@
 @import 'bootstrap';
 
- .navbar {
-   background-color: black !important;
- }
+.navbar {
+  background-color: black !important;
+}
 
 .nav-link{
     color: white !important;
@@ -43,6 +43,10 @@
    flex: 1 0 auto;
    background-color: lightgrey;
  }
+ 
+ .navbar-dark-toggler-icon-bg {
+  background-image: url(":image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
 
  /* pagination styling */
 
